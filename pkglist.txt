@@ -109,7 +109,6 @@ ugrep
 unzip
 uv
 vim
-virtualbox
 vpl-gpu-rt
 vulkan-intel
 waybar
