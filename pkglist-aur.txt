@@ -1,7 +1,6 @@
 catppuccin-cursors-mocha
 catppuccin-gtk-theme-mocha
 deezer
-excalidraw-pake-bin
 jupyterlab-catppuccin
 kvantum-theme-catppuccin-git
 neovim-remote
@@ -12,4 +11,3 @@ wl-gammarelay-rs
 wlogout
 yay
 yay-debug
-zen-browser-bin

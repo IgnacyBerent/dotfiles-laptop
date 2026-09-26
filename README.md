@@ -19,27 +19,12 @@ or:
 
 ## Install
 
-### Replace AMD packages with Intel equivalents
-
-#### AMD Packages
-
-    vulkan-radeon xf86-video-amdgpu amd-ucode
-
-#### Intel Packages
-
-    vulkan-intel intel-media-driver intel-ucode
-
-#### To remove
-
-    grub
-
 ### Pacman
 
     sudo pacman -S --needed - < pkglist.txt
 
 ### YAY
 
-    sudo pacman -S --needed git base-devel
     git clone https://aur.archlinux.org/yay.git /tmp/yay
     cd /tmp/yay
     makepkg -si --noconfirm
@@ -90,6 +75,10 @@ or:
      chmod +x ~/.config/hypr/scripts/suncycle.sh
      chmod +x ~/.config/hypr/scripts/toggle-suncycle.sh
 
+## Zen Browser
+
+    flatpak install flathub app.zen_browser.zen
+
 ## Dotfiles Git
 
     ssh-keygen -t ed25519 -C "2gb02ignac@gmail.com"
@@ -107,9 +96,8 @@ or:
     sudo usermod -aG docker $USER
     newgrp docker
 
-## Pacman cache
+## Utils
 
-    sudo pacman -S pacman-contrib
     sudo systemctl enable --now paccache.timer
 
 ## EDUROAM

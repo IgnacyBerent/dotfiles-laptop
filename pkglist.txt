@@ -48,9 +48,6 @@ jupyterlab
 kvantum
 lazydocker
 less
-lib32-gamemode
-lib32-mesa
-lib32-vulkan-intel
 libreoffice-fresh
 libva-intel-driver
 libva-utils
