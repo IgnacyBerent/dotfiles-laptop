@@ -8,6 +8,3 @@ oh-my-posh
 papirus-folders-catppuccin-git
 rar
 wl-gammarelay-rs
-wlogout
-yay
-yay-debug
